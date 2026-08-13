@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Folioblox — Creative Director Portfolio</title>
+  
+  <!-- Modern Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <!-- Minimal Loading Screen -->
+  <div id="loader" class="loader-overlay">
+    <div class="loader-content">
+      <div class="spinner"></div>
+      <div class="loader-text" id="loader-text">Loading 0%</div>
+    </div>
+  </div>
+
+  <!-- Pinned Scroll Animation Canvas -->
+  <canvas id="hero-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-header">
+    <div class="nav-container">
+      <a href="#" class="logo">Folioblox</a>
+      
+      <nav class="nav-links">
+        <a href="/" class="nav-item active">Home</a>
+        <a href="/#about" class="nav-item">About</a>
+        <a href="/projects.html" class="nav-item">Projects</a>
+      </nav>
+
+      <a href="#contact" class="btn-primary">
+        <span>Get in touch</span>
+        <div class="btn-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Scrollable Content Overlay -->
+  <main class="content-wrapper">
+
+    <!-- Section 1: Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <div class="hero-top-grid">
+          <div class="hero-main-title">
+            <span class="hero-tagline">Hey, I'm Israel David</span>
+            <h1 class="hero-heading">AI Security<br />& SOC Engineer</h1>
+          </div>
+
+          <div class="hero-quote-block">
+            <h3 class="quote-title">Building AI systems that<br />defend other systems.</h3>
+            <p class="quote-text">Combining LLM security, SOC automation, and cloud security into autonomous defense infrastructure.</p>
+          </div>
+        </div>
+
+        <!-- Services 4-Column Grid -->
+        <div class="services-grid">
+          <div class="service-item">
+            <span class="service-num">#01</span>
+            <h4 class="service-name">Backend AI Engineering</h4>
+          </div>
+          <div class="service-item">
+            <span class="service-num">#02</span>
+            <h4 class="service-name">AI Security & LLM Defense</h4>
+          </div>
+          <div class="service-item">
+            <span class="service-num">#03</span>
+            <h4 class="service-name">Cloud & eBPF Security</h4>
+          </div>
+          <div class="service-item">
+            <span class="service-num">#04</span>
+            <h4 class="service-name">SOC & SIEM Automation</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Core Stack Bar -->
+    <section class="brands-section">
+      <div class="brands-card">
+        <span class="brands-label">Core Engineering & Security Technologies</span>
+        <div class="brands-logos">
+          <div class="brand-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+            <span>Python & FastAPI</span>
+          </div>
+          <div class="brand-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            <span>Wazuh & Sysmon</span>
+          </div>
+          <div class="brand-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/>
+              <path d="M12 2a10 10 0 0 1 0 20V2z"/>
+            </svg>
+            <span>Falco & eBPF</span>
+          </div>
+          <div class="brand-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1v12z"/>
+            </svg>
+            <span>Splunk BOTS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Behind the Systems -->
+    <section id="about" class="about-section">
+      <div class="about-header-grid">
+        <div class="about-left">
+          <span class="section-badge">Autonomous Security & AI</span>
+          <h2 class="about-heading">Engineering<br />Defenses That<br />Think Before You Do</h2>
+        </div>
+
+        <div class="about-right">
+          <p class="about-description">
+            I build AI systems that defend other systems — combining LLM security, SOC automation, and backend AI engineering into autonomous defense infrastructure.
+          </p>
+          
+          <div class="about-cta-row">
+            <span class="sub-cta-text">Let's Build & Secure<br />Next-Gen AI Systems</span>
+            <a href="#contact" class="btn-primary">
+              <span>Get in touch</span>
+              <div class="btn-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 4: Featured Projects Grid (Direct GitHub Repositories) -->
+      <div id="projects" class="projects-grid">
+        <a href="https://github.com/KingLinux24/backend-week3-task-api-postgres" target="_blank" class="project-card repo-card">
+          <div class="project-img-wrapper">
+            <img src="/project_backend_art.svg" alt="Backend AI Task API & Postgres" />
+          </div>
+          <div class="project-card-overlay">
+            <span class="p-card-tag">Backend AI</span>
+            <h4 class="p-card-heading">Backend Task API & Postgres</h4>
+          </div>
+        </a>
+
+        <a href="https://github.com/KingLinux24/brute-force-detector" target="_blank" class="project-card repo-card">
+          <div class="project-img-wrapper">
+            <img src="/project_aisecurity_art.svg" alt="Brute Force Threat Detector" />
+          </div>
+          <div class="project-card-overlay">
+            <span class="p-card-tag">AI Security</span>
+            <h4 class="p-card-heading">Brute Force Threat Detector</h4>
+          </div>
+        </a>
+
+        <a href="https://github.com/KingLinux24/Container-Runtime-Security-Detection-Engineering-with-Falco-eBPF-" target="_blank" class="project-card repo-card">
+          <div class="project-img-wrapper">
+            <img src="/project_cloudsec_art.svg" alt="Container Runtime Security Falco eBPF" />
+          </div>
+          <div class="project-card-overlay">
+            <span class="p-card-tag">Cloud Security</span>
+            <h4 class="p-card-heading">Container Security (Falco & eBPF)</h4>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Section: Security & Impact Stats (Matching Profile) -->
+    <section class="stats-section">
+      <div class="stats-header">
+        <div class="stats-header-left">
+          <h2 class="stats-main-heading">Security Coverage & Performance Impact</h2>
+        </div>
+        <div class="stats-header-right">
+          <p class="stats-header-desc">Quantifiable detection metrics across MITRE ATT&CK matrices, cloud runtime protection, and high-velocity SOC triage automation.</p>
+          <a href="https://github.com/KingLinux24" target="_blank" class="stats-link-action">Explore GitHub repositories &rarr;</a>
+        </div>
+      </div>
+
+      <!-- 4 Column Stats Grid -->
+      <div class="stats-grid">
+        <div class="stat-col">
+          <span class="stat-category">MITRE ATT&CK</span>
+          <div class="stat-number">85%</div>
+          <p class="stat-label">Initial Access & Evasion technique detection coverage.</p>
+        </div>
+
+        <div class="stat-col">
+          <span class="stat-category">SOC Repositories</span>
+          <div class="stat-number">60+</div>
+          <p class="stat-label">Open-source detection labs, detection-as-code & security tools.</p>
+        </div>
+
+        <div class="stat-col">
+          <span class="stat-category">Alert Automation</span>
+          <div class="stat-number">99.4%</div>
+          <p class="stat-label">AI SIEM triage accuracy before human analyst escalation.</p>
+        </div>
+
+        <div class="stat-col">
+          <span class="stat-category">Runtime Protection</span>
+          <div class="stat-number">eBPF</div>
+          <p class="stat-label">Real-time kernel level threat detection with Falco in K8s.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Centered Person Portrait Showcase -->
+    <section id="person" class="person-showcase-section">
+      <div class="person-showcase-container">
+        <!-- Name Line 1 -->
+        <h2 class="person-display-name top-line">ISRAEL</h2>
+        
+        <!-- Centered Portrait Image -->
+        <div class="person-portrait-box">
+          <img src="/person_portrait.jpg" alt="Israel David" class="person-portrait-image" />
+        </div>
+
+        <!-- Name Line 2 -->
+        <h2 class="person-display-name bottom-line">DAVID</h2>
+
+        <div class="person-meta-row">
+          <span class="person-role-tag">AI Security Engineer & SOC Specialist</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Ready to Build & Secure Contact Form -->
+    <section id="contact" class="grow-section">
+      <div class="grow-header">
+        <div class="grow-title-block">
+          <h2 class="grow-heading">
+            READY TO<br />
+            <span class="heading-grow">SECURE</span>
+            <span class="heading-scale">& BUILD YOUR AI SYSTEMS?</span>
+          </h2>
+        </div>
+
+        <div class="talk-badge-card">
+          <span class="talk-tag">LET'S CONNECT</span>
+          <p class="talk-desc">Open for internships, research collaborations, and security engineering projects.</p>
+        </div>
+      </div>
+
+      <form class="scale-form" onsubmit="event.preventDefault();">
+        <div class="form-grid">
+          <!-- Row 1 -->
+          <div class="form-group">
+            <label class="form-label">YOUR NAME*</label>
+            <input type="text" class="form-input" placeholder="ALEX REID" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">YOUR EMAIL*</label>
+            <input type="email" class="form-input" placeholder="ALEX@COMPANY.COM" required />
+          </div>
+
+          <!-- Row 2 -->
+          <div class="form-group">
+            <label class="form-label">PROJECT TYPE / DOMAIN</label>
+            <input type="text" class="form-input" placeholder="AI Security / SOC Automation / Cloud" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">TIMELINE / OPPORTUNITY</label>
+            <input type="text" class="form-input" placeholder="Immediate / Next Quarter" />
+          </div>
+
+          <!-- Row 3 -->
+          <div class="form-group" style="grid-column: 1 / -1;">
+            <label class="form-label">PROJECT DETAILS & SECURITY GOALS</label>
+            <input type="text" class="form-input" placeholder="Tell me about your systems, SIEM stack, or AI security needs..." />
+          </div>
+        </div>
+
+        <div class="form-submit-row">
+          <button type="submit" class="btn-primary btn-submit">
+            <span>Send Message</span>
+            <div class="btn-icon">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Section 6: Footer -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <h3 class="footer-title">Let's build secure AI systems together.</h3>
+          <a href="https://github.com/KingLinux24" target="_blank" class="footer-email">github.com/KingLinux24</a>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; 2026 Israel David. All rights reserved.</span>
+          <div class="footer-socials">
+            <a href="https://github.com/KingLinux24" target="_blank">GitHub</a>
+            <a href="https://www.youtube.com/@i_amHacker45" target="_blank">YouTube</a>
+            <a href="https://linkedin.com/in/israel-mbiyavanga-david-b037a1255" target="_blank">LinkedIn</a>
+            <a href="https://instagram.com/i_amhacker45" target="_blank">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>

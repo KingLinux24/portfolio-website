@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cybersecurity & AI Security Projects — Israel David</title>
+  
+  <!-- Modern Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body class="projects-page">
+
+  <!-- Navigation Bar -->
+  <header class="navbar-header">
+    <div class="nav-container">
+      <a href="/" class="logo">Israel David</a>
+      
+      <nav class="nav-links">
+        <a href="/" class="nav-item">Home</a>
+        <a href="/#about" class="nav-item">About</a>
+        <a href="/projects.html" class="nav-item active">Projects</a>
+      </nav>
+
+      <a href="/#contact" class="btn-primary">
+        <span>Get in touch</span>
+        <div class="btn-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main class="content-wrapper projects-wrapper">
+
+    <!-- Section 1: Hero Title & Subtext -->
+    <section class="projects-hero-section">
+      <div class="projects-hero-content">
+        <span class="pill-badge"><span class="badge-dot">●</span> OPEN-SOURCE REPOSITORIES & LABS</span>
+        <h1 class="projects-hero-title">AI Security, SOC &<br /><span class="title-gradient">Cloud Projects</span></h1>
+        <p class="projects-hero-subtext">
+          Open-source security engineering labs, detection tools, eBPF runtime engines, and AI-powered SOC triage systems built by Israel David.
+        </p>
+
+        <!-- Key Metrics Bar -->
+        <div class="projects-stats-bar">
+          <div class="p-stat">
+            <span class="p-stat-num">60+</span>
+            <span class="p-stat-lbl">GitHub Repositories</span>
+          </div>
+          <div class="p-stat">
+            <span class="p-stat-num">85%</span>
+            <span class="p-stat-lbl">MITRE ATT&CK Coverage</span>
+          </div>
+          <div class="p-stat">
+            <span class="p-stat-num">4</span>
+            <span class="p-stat-lbl">Core Security Domains</span>
+          </div>
+          <div class="p-stat">
+            <span class="p-stat-num">eBPF</span>
+            <span class="p-stat-lbl">Kernel Telemetry</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Featured Projects Showcase Grid (User's Exact Repositories) -->
+    <section class="projects-showcase-section">
+      <div class="projects-showcase-header">
+        <h2 class="section-display-heading">Featured Open Source Repositories</h2>
+        <span class="sub-cta-text">Click cards to visit GitHub repositories</span>
+      </div>
+
+      <div class="projects-masonry-grid">
+        <!-- 1. Backend AI -->
+        <a href="https://github.com/KingLinux24/backend-week3-task-api-postgres" target="_blank" class="p-card-large" data-category="backend-ai">
+          <div class="p-img-box">
+            <img src="/project_headphones.png" alt="Backend AI Task API & Postgres" />
+          </div>
+          <div class="p-card-meta">
+            <div class="p-meta-top">
+              <span class="p-tag">Backend AI</span>
+              <span class="p-year">GitHub</span>
+            </div>
+            <h3 class="p-card-title">Backend Task API & Postgres</h3>
+            <p class="p-card-desc">Asynchronous Python & PostgreSQL REST API architecture supporting AI task queues, state management, and high-throughput backend data pipelines.</p>
+          </div>
+        </a>
+
+        <!-- 2. AI Security -->
+        <a href="https://github.com/KingLinux24/brute-force-detector" target="_blank" class="p-card-large" data-category="ai-security">
+          <div class="p-img-box">
+            <img src="/project_jacket.png" alt="Brute Force Threat Detector" />
+          </div>
+          <div class="p-card-meta">
+            <div class="p-meta-top">
+              <span class="p-tag">AI Security</span>
+              <span class="p-year">GitHub</span>
+            </div>
+            <h3 class="p-card-title">Brute Force & Threat Detector</h3>
+            <p class="p-card-desc">Real-time threat detection engine designed to analyze high-velocity brute-force authentication attempts and anomalous login behavior.</p>
+          </div>
+        </a>
+
+        <!-- 3. Cloud Security -->
+        <a href="https://github.com/KingLinux24/Container-Runtime-Security-Detection-Engineering-with-Falco-eBPF-" target="_blank" class="p-card-large" data-category="cloud-security">
+          <div class="p-img-box">
+            <img src="/project_bottle.png" alt="Container Runtime Security Falco eBPF" />
+          </div>
+          <div class="p-card-meta">
+            <div class="p-meta-top">
+              <span class="p-tag">Cloud Security</span>
+              <span class="p-year">GitHub</span>
+            </div>
+            <h3 class="p-card-title">Container Runtime Security (Falco & eBPF)</h3>
+            <p class="p-card-desc">Deep eBPF kernel-level runtime telemetry and rule engineering for Kubernetes container environments to detect malicious system calls.</p>
+          </div>
+        </a>
+
+        <!-- 4. Cybersecurity / SOC -->
+        <a href="https://github.com/KingLinux24/Security-Engineering-SIEM-Detection-Lab-Wazuh-Sysmon-Atomic-Red-Team-" target="_blank" class="p-card-large" data-category="soc">
+          <div class="p-img-box">
+            <img src="/project_frame50.jpg" alt="SIEM Detection Lab Wazuh Sysmon" />
+          </div>
+          <div class="p-card-meta">
+            <div class="p-meta-top">
+              <span class="p-tag">SOC / SIEM</span>
+              <span class="p-year">GitHub</span>
+            </div>
+            <h3 class="p-card-title">SIEM Lab (Wazuh, Sysmon, Atomic Red Team)</h3>
+            <p class="p-card-desc">Hands-on security engineering lab deploying Wazuh SIEM, advanced Sysmon endpoint telemetry, and attack rule validation using Atomic Red Team.</p>
+          </div>
+        </a>
+
+        <!-- 5. AI SOC Triage Assistant -->
+        <a href="https://github.com/KingLinux24/ai-soc-triage-assistant" target="_blank" class="p-card-large" data-category="ai-security">
+          <div class="p-img-box">
+            <img src="/project_frame150.jpg" alt="AI SOC Triage Assistant" />
+          </div>
+          <div class="p-card-meta">
+            <div class="p-meta-top">
+              <span class="p-tag">AI SOC Automation</span>
+              <span class="p-year">GitHub</span>
+            </div>
+            <h3 class="p-card-title">AI SOC Triage Assistant</h3>
+            <p class="p-card-desc">LLM-powered security assistant that automatically parses, enriches, and prioritizes high-volume SIEM alerts for SOC analyst teams.</p>
+          </div>
+        </a>
+
+        <!-- 6. Threat Hunting Splunk -->
+        <a href="https://github.com/KingLinux24/Threat-Hunting-Incident-Response-with-Splunk-Boss-of-the-SOC-v1-" target="_blank" class="p-card-large" data-category="soc">
+          <div class="p-img-box">
+            <img src="/project_frame250.jpg" alt="Splunk BOTS Threat Hunting" />
+          </div>
+          <div class="p-card-meta">
+            <div class="p-meta-top">
+              <span class="p-tag">Threat Hunting</span>
+              <span class="p-year">GitHub</span>
+            </div>
+            <h3 class="p-card-title">Threat Hunting & Incident Response (Splunk BOTS)</h3>
+            <p class="p-card-desc">Threat hunting case study investigating advanced adversary playbooks inside Splunk using the Boss of the SOC (BOTS) dataset.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Section 3: Interactive Filterable Categories Showcase -->
+    <section class="projects-filter-section">
+      <div class="filter-header">
+        <span class="pill-badge"><span class="badge-dot">●</span> REPOSITORY ARCHIVE</span>
+        <h2 class="section-display-heading">Explore By Specialization</h2>
+      </div>
+
+      <!-- Filter Pills Bar -->
+      <div class="filter-pills-row">
+        <button class="filter-pill active" data-filter="all">All Projects</button>
+        <button class="filter-pill" data-filter="backend-ai">Backend AI</button>
+        <button class="filter-pill" data-filter="ai-security">AI Security</button>
+        <button class="filter-pill" data-filter="cloud-security">Cloud Security</button>
+        <button class="filter-pill" data-filter="soc">SOC & SIEM</button>
+      </div>
+
+      <!-- List View of Case Studies -->
+      <div class="project-list-archive">
+        <div class="archive-row" data-cat="backend-ai">
+          <span class="arc-year">GitHub</span>
+          <h4 class="arc-title">Backend Task API & Postgres</h4>
+          <span class="arc-client">KingLinux24</span>
+          <span class="arc-role">Backend AI Engineer</span>
+          <a href="https://github.com/KingLinux24/backend-week3-task-api-postgres" target="_blank" class="arc-link">View Repo &rarr;</a>
+        </div>
+        <div class="archive-row" data-cat="ai-security">
+          <span class="arc-year">GitHub</span>
+          <h4 class="arc-title">Brute Force & Threat Detector</h4>
+          <span class="arc-client">KingLinux24</span>
+          <span class="arc-role">AI Security Engineer</span>
+          <a href="https://github.com/KingLinux24/brute-force-detector" target="_blank" class="arc-link">View Repo &rarr;</a>
+        </div>
+        <div class="archive-row" data-cat="cloud-security">
+          <span class="arc-year">GitHub</span>
+          <h4 class="arc-title">Container Security (Falco & eBPF)</h4>
+          <span class="arc-client">KingLinux24</span>
+          <span class="arc-role">Cloud Security</span>
+          <a href="https://github.com/KingLinux24/Container-Runtime-Security-Detection-Engineering-with-Falco-eBPF-" target="_blank" class="arc-link">View Repo &rarr;</a>
+        </div>
+        <div class="archive-row" data-cat="soc">
+          <span class="arc-year">GitHub</span>
+          <h4 class="arc-title">SIEM Lab (Wazuh, Sysmon, Atomic Red)</h4>
+          <span class="arc-client">KingLinux24</span>
+          <span class="arc-role">SOC Engineer</span>
+          <a href="https://github.com/KingLinux24/Security-Engineering-SIEM-Detection-Lab-Wazuh-Sysmon-Atomic-Red-Team-" target="_blank" class="arc-link">View Repo &rarr;</a>
+        </div>
+        <div class="archive-row" data-cat="ai-security">
+          <span class="arc-year">GitHub</span>
+          <h4 class="arc-title">AI SOC Triage Assistant</h4>
+          <span class="arc-client">KingLinux24</span>
+          <span class="arc-role">LLM Automation</span>
+          <a href="https://github.com/KingLinux24/ai-soc-triage-assistant" target="_blank" class="arc-link">View Repo &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Detection & Defense Focus -->
+    <section class="projects-testimonials-section">
+      <div class="testimonials-header">
+        <span class="pill-badge"><span class="badge-dot">●</span> SECURITY PHILOSOPHY</span>
+        <h2 class="section-display-heading">Autonomous Defense Engineering</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Card 1 -->
+        <div class="testimonial-card">
+          <div class="quote-mark">🛡️</div>
+          <p class="t-text">
+            "A SOC that thinks before an analyst has to — automating high-volume SIEM alert triage with LLM agents so human responders focus on true threats."
+          </p>
+          <div class="t-author">
+            <h5 class="t-name">SOC Automation</h5>
+            <span class="t-role">LLM Triage & Enrichment</span>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="testimonial-card">
+          <div class="quote-mark">⚡</div>
+          <p class="t-text">
+            "Kernel-level visibility with eBPF and Falco to detect zero-day container escapes and anomalous runtime behavior inside Kubernetes clusters."
+          </p>
+          <div class="t-author">
+            <h5 class="t-name">Cloud Runtime Security</h5>
+            <span class="t-role">Falco & eBPF Telemetry</span>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="testimonial-card">
+          <div class="quote-mark">🔐</div>
+          <p class="t-text">
+            "Proactive Threat Detection and Detection-as-Code CI/CD pipelines validating custom Sigma rules against attack simulations before deployment."
+          </p>
+          <div class="t-author">
+            <h5 class="t-name">Detection-as-Code</h5>
+            <span class="t-role">Sysmon & Atomic Red Team</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Site Footer -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <h3 class="footer-title">Let me build and secure your AI infrastructure.</h3>
+          <a href="https://github.com/KingLinux24" target="_blank" class="footer-email">github.com/KingLinux24</a>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; 2026 Israel David. All rights reserved.</span>
+          <div class="footer-socials">
+            <a href="https://github.com/KingLinux24" target="_blank">GitHub</a>
+            <a href="https://www.youtube.com/@i_amHacker45" target="_blank">YouTube</a>
+            <a href="https://linkedin.com/in/israel-mbiyavanga-david-b037a1255" target="_blank">LinkedIn</a>
+            <a href="https://instagram.com/i_amhacker45" target="_blank">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script>
+    // Filter functionality for projects page
+    document.querySelectorAll('.filter-pill').forEach(pill => {
+      pill.addEventListener('click', () => {
+        document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        const filter = pill.getAttribute('data-filter');
+
+        document.querySelectorAll('.p-card-large').forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        document.querySelectorAll('.archive-row').forEach(row => {
+          if (filter === 'all' || row.getAttribute('data-cat') === filter) {
+            row.style.display = 'grid';
+          } else {
+            row.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

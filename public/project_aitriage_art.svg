@@ -1,0 +1,26 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'>
+  <rect width='100%' height='100%' fill='#0b0d18'/>
+  <circle cx='400' cy='300' r='180' fill='rgba(168, 85, 247, 0.05)' stroke='rgba(168, 85, 247, 0.2)' stroke-width='1.5'/>
+  <circle cx='400' cy='300' r='100' fill='rgba(0, 240, 255, 0.05)' stroke='#00f0ff' stroke-width='2'/>
+  
+  <text x='400' y='295' font-family='sans-serif' font-size='22' fill='#ffffff' font-weight='bold' text-anchor='middle'>AGENTIC SOC</text>
+  <text x='400' y='325' font-family='monospace' font-size='13' fill='#a855f7' text-anchor='middle'>Auto-Triage & Enrichment</text>
+
+  <!-- Connected Nodes -->
+  <circle cx='200' cy='180' r='40' fill='#151a2e' stroke='#3b82f6' stroke-width='2'/>
+  <text x='200' y='185' font-family='sans-serif' font-size='12' fill='#ffffff' text-anchor='middle'>SIEM Alert</text>
+
+  <circle cx='600' cy='180' r='40' fill='#151a2e' stroke='#10b981' stroke-width='2'/>
+  <text x='600' y='185' font-family='sans-serif' font-size='12' fill='#ffffff' text-anchor='middle'>LLM Parser</text>
+
+  <circle cx='200' cy='420' r='40' fill='#151a2e' stroke='#ff4d00' stroke-width='2'/>
+  <text x='200' y='425' font-family='sans-serif' font-size='12' fill='#ffffff' text-anchor='middle'>Threat Intel</text>
+
+  <circle cx='600' cy='420' r='40' fill='#151a2e' stroke='#00f0ff' stroke-width='2'/>
+  <text x='600' y='425' font-family='sans-serif' font-size='12' fill='#ffffff' text-anchor='middle'>Auto Contain</text>
+
+  <line x1='240' y1='200' x2='320' y2='250' stroke='#3b82f6' stroke-width='2'/>
+  <line x1='560' y1='200' x2='480' y2='250' stroke='#10b981' stroke-width='2'/>
+  <line x1='240' y1='400' x2='320' y2='350' stroke='#ff4d00' stroke-width='2'/>
+  <line x1='560' y1='400' x2='480' y2='350' stroke='#00f0ff' stroke-width='2'/>
+</svg>
