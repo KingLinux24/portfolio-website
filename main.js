@@ -14,11 +14,18 @@ let loadedCount = 0;
 let targetFrame = 0;
 let currentFrame = 0;
 const LERP_FACTOR = 0.15; // Smooth interpolation factor
-
 // Function to format frame numbers e.g. 1 -> "001"
 function getFrameUrl(index) {
   const frameNum = String(index + 1).padStart(3, '0');
-  return `/phot/ezgif-frame-${frameNum}.jpg`;
+
+  // import.meta.env.BASE_URL automatically adapts:
+  // - Local: '/'
+  // - GitHub Pages: '/portfolio-website/'
+  const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+    ? import.meta.env.BASE_URL
+    : `${import.meta.env.BASE_URL}/`;
+
+  return `${baseUrl}phot/ezgif-frame-${frameNum}.jpg`;
 }
 
 // Adjust canvas resolution for High DPI displays without quality loss
@@ -108,10 +115,10 @@ function preloadImages() {
   for (let i = 0; i < TOTAL_FRAMES; i++) {
     const img = new Image();
     img.src = getFrameUrl(i);
-    
+
     const onSingleImageLoad = () => {
       if ('decode' in img) {
-        img.decode().catch(() => {}).finally(() => {
+        img.decode().catch(() => { }).finally(() => {
           registerLoaded(img, i);
         });
       } else {
