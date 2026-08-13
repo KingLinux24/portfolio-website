@@ -1,0 +1,21 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'>
+  <rect width='100%' height='100%' fill='#0a0c16'/>
+  
+  <!-- SIEM Dashboard Layout -->
+  <rect x='80' y='80' width='640' height='440' rx='20' fill='#111526' stroke='rgba(255,255,255,0.1)' stroke-width='1.5'/>
+  <text x='120' y='125' font-family='sans-serif' font-size='18' fill='#ffffff' font-weight='bold'>Wazuh SIEM & Sysmon Telemetry Console</text>
+
+  <!-- Log Streams -->
+  <rect x='110' y='160' width='580' height='50' rx='8' fill='rgba(239, 68, 68, 0.15)' stroke='#ef4444' stroke-width='1'/>
+  <text x='130' y='190' font-family='monospace' font-size='13' fill='#ffffff'>[RULE 100201] Sysmon Event 1: Process Create (mimikatz.exe detected on HOST-WIN10)</text>
+
+  <rect x='110' y='225' width='580' height='50' rx='8' fill='rgba(255, 255, 255, 0.05)' stroke='rgba(255,255,255,0.1)' stroke-width='1'/>
+  <text x='130' y='255' font-family='monospace' font-size='13' fill='rgba(255,255,255,0.8)'>[RULE 5710] SSH Authentication Success for user admin from 192.168.1.105</text>
+
+  <rect x='110' y='290' width='580' height='50' rx='8' fill='rgba(16, 185, 129, 0.15)' stroke='#10b981' stroke-width='1'/>
+  <text x='130' y='320' font-family='monospace' font-size='13' fill='#ffffff'>[RULE 87105] Atomic Red Team Test T1059.001 Executed — Rule Validated</text>
+
+  <!-- Graph Widget -->
+  <rect x='110' y='360' width='580' height='130' rx='12' fill='#171d33'/>
+  <path d='M130 460 Q200 400 300 440 T450 380 T670 430' fill='none' stroke='#00f0ff' stroke-width='3'/>
+</svg>

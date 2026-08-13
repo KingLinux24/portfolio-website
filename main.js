@@ -40,9 +40,24 @@ function renderFrame(index) {
   const canvasWidth = window.innerWidth;
   const canvasHeight = window.innerHeight;
 
-  // Clear background
+  // Clear background and draw dark ambient radial gradient matching central image lighting
   ctx.filter = 'none';
-  ctx.fillStyle = '#050505';
+  const radGrad = ctx.createRadialGradient(
+    canvasWidth / 2,
+    canvasHeight * 0.45,
+    0,
+    canvasWidth / 2,
+    canvasHeight * 0.45,
+    Math.max(canvasWidth, canvasHeight) * 0.65
+  );
+  // Center Glow: Deep Crimson / Neon Magenta with low opacity (#a1124d at 25% opacity)
+  radGrad.addColorStop(0, 'rgba(161, 18, 77, 0.28)');
+  // Mid-Transition: Very dark moody purple/charcoal (#120610 at 90% opacity)
+  radGrad.addColorStop(0.55, 'rgba(18, 6, 16, 0.90)');
+  // Outer Edges: Near-black (#050206)
+  radGrad.addColorStop(1, '#050206');
+
+  ctx.fillStyle = radGrad;
   ctx.fillRect(0, 0, canvasWidth, canvasHeight);
 
   const imgWidth = img.naturalWidth;

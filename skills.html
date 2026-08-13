@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Technical Skills & Security Matrix — Israel David</title>
+  
+  <!-- Modern Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body class="skills-page">
+
+  <!-- Navigation Bar -->
+  <header class="navbar-header">
+    <div class="nav-container">
+      <a href="/" class="logo">Israel David</a>
+      
+      <nav class="nav-links">
+        <a href="/" class="nav-item">Home</a>
+        <a href="/about.html" class="nav-item">About</a>
+        <a href="/projects.html" class="nav-item">Projects</a>
+        <a href="/skills.html" class="nav-item active">Skills</a>
+      </nav>
+
+      <a href="/#contact" class="btn-primary">
+        <span>Get in touch</span>
+        <div class="btn-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main class="content-wrapper skills-wrapper">
+
+    <!-- Section 1: Skills Hero Header -->
+    <section class="skills-hero-section">
+      <div class="skills-hero-content">
+        <span class="pill-badge"><span class="badge-dot">●</span> PROFESSIONAL SKILL MATRIX</span>
+        <h1 class="skills-hero-title">Technical Capabilities &<br /><span class="title-gradient">Security Matrix</span></h1>
+        <p class="skills-hero-subtext">
+          Comprehensive breakdown of technical specializations, security certifications, defensive telemetry, offensive penetration testing, and backend AI engineering capabilities built by Israel David.
+        </p>
+
+        <!-- Search & Quick Filter Bar -->
+        <div class="skills-search-box">
+          <div class="search-input-wrapper">
+            <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="skills-search-input" placeholder="Search skills, tools, frameworks (e.g. AZ-500, Python, Wazuh, eBPF, OWASP)..." />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Domain Filter Pills -->
+    <section class="skills-filter-section">
+      <div class="skills-filter-row">
+        <button class="skills-tab active" data-category="all">All Specializations</button>
+        <button class="skills-tab" data-category="cloud">☁️ Multi-Cloud & Enterprise</button>
+        <button class="skills-tab" data-category="ai-sec">🤖 AI Security & Emerging Tech</button>
+        <button class="skills-tab" data-category="backend">⚙️ Backend & Full-Stack</button>
+        <button class="skills-tab" data-category="blue-team">🛡️ Defensive Security (Blue Team)</button>
+        <button class="skills-tab" data-category="red-team">⚔️ Offensive Sec (Red Team)</button>
+        <button class="skills-tab" data-category="grc">📜 GRC & Frameworks</button>
+        <button class="skills-tab" data-category="systems">🐧 Systems & Networking</button>
+      </div>
+    </section>
+
+    <!-- Section 3: Skills Categories Grid -->
+    <section class="skills-display-section">
+      <div class="skills-categories-grid">
+
+        <!-- 1. Multi-Cloud & Enterprise Infrastructure Security -->
+        <div class="skill-category-card" data-cat="cloud">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">☁️</div>
+            <div>
+              <h2 class="skill-cat-title">Multi-Cloud & Enterprise Infrastructure Security</h2>
+              <span class="skill-cat-badge">Cloud Posture & Identity</span>
+            </div>
+          </div>
+          <div class="skill-groups">
+            <div class="skill-group">
+              <h3 class="skill-group-label">Microsoft Azure Security <span class="cert-pill">AZ-500 Certified</span></h3>
+              <div class="skill-tags">
+                <span class="skill-tag highlighted">Microsoft Entra ID (Azure AD)</span>
+                <span class="skill-tag">Azure Key Vault</span>
+                <span class="skill-tag">Network Security Groups (NSGs)</span>
+                <span class="skill-tag highlighted">Microsoft Defender for Cloud</span>
+                <span class="skill-tag">Sentinel SIEM Integration</span>
+                <span class="skill-tag">Role-Based Access Control (RBAC)</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">Amazon Web Services (AWS)</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">AWS Cloud Security</span>
+                <span class="skill-tag">AWS IAM Policy & Roles</span>
+                <span class="skill-tag">AWS Cloud Operations</span>
+                <span class="skill-tag">VPC Network Security</span>
+                <span class="skill-tag">Cloud Compliance</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">Google Cloud Platform (GCP)</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">GCP Cybersecurity</span>
+                <span class="skill-tag">Cloud Backup & Recovery</span>
+                <span class="skill-tag">Disaster Recovery</span>
+                <span class="skill-tag">Cloud Storage Security Controls</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">Cloud Operations & Architecture</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">Hybrid-Cloud Posture Management</span>
+                <span class="skill-tag">Cloud Virtualization</span>
+                <span class="skill-tag">Cloud-Native Attack Defense</span>
+                <span class="skill-tag">Container Security</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. AI Security & Emerging Tech -->
+        <div class="skill-category-card" data-cat="ai-sec">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🤖</div>
+            <div>
+              <h2 class="skill-cat-title">AI Security & Emerging Tech</h2>
+              <span class="skill-cat-badge">LLM Defense & AI Triage</span>
+            </div>
+          </div>
+          <div class="skill-groups">
+            <div class="skill-group">
+              <h3 class="skill-group-label">AI Security Engineering</h3>
+              <div class="skill-tags">
+                <span class="skill-tag highlighted">Principal AI Security Engineer Intern</span>
+                <span class="skill-tag">AI Threat Detection</span>
+                <span class="skill-tag highlighted">Automated AI Triage</span>
+                <span class="skill-tag">Secure Model Deployments</span>
+                <span class="skill-tag">LLM Prompt Guardrails</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">AI & Machine Learning Concepts</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">AI for Cybersecurity Certifications</span>
+                <span class="skill-tag">Artificial Intelligence Fundamentals</span>
+                <span class="skill-tag">ML Infrastructure Integration</span>
+                <span class="skill-tag">AI Data Pipelines</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">Threat Mitigation for AI</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">RSA Security Implementations</span>
+                <span class="skill-tag">AI-Powered Phishing Analysis</span>
+                <span class="skill-tag">Automated Security Reporting</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Backend & Full-Stack Web Development -->
+        <div class="skill-category-card" data-cat="backend">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">⚙️</div>
+            <div>
+              <h2 class="skill-cat-title">Backend & Full-Stack Web Development</h2>
+              <span class="skill-cat-badge">API Architecture & Databases</span>
+            </div>
+          </div>
+          <div class="skill-groups">
+            <div class="skill-group">
+              <h3 class="skill-group-label">Server-Side Languages & Frameworks</h3>
+              <div class="skill-tags">
+                <span class="skill-tag highlighted">Python (FastAPI / Flask)</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Express.js</span>
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">C#</span>
+                <span class="skill-tag">C</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">APIs & Integration</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">RESTful Web Services</span>
+                <span class="skill-tag">API Query & Path Parameters</span>
+                <span class="skill-tag">API Automation with Scripting</span>
+                <span class="skill-tag">Postman Codegen</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">Database Management</h3>
+              <div class="skill-tags">
+                <span class="skill-tag highlighted">PostgreSQL</span>
+                <span class="skill-tag">SQL & Query Optimization</span>
+                <span class="skill-tag">DBMS Architecture</span>
+                <span class="skill-tag">Schema Design & Migrations</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">Frontend Integration</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">Modern HTML5</span>
+                <span class="skill-tag">CSS3 & Modular Styling</span>
+                <span class="skill-tag">JavaScript (ES6+)</span>
+                <span class="skill-tag">Vite Build Tooling</span>
+                <span class="skill-tag">Component Architecture</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Cybersecurity & Defensive Operations (Blue / Purple Team) -->
+        <div class="skill-category-card" data-cat="blue-team">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🛡️</div>
+            <div>
+              <h2 class="skill-cat-title">Cybersecurity & Defensive Operations</h2>
+              <span class="skill-cat-badge">Blue & Purple Team</span>
+            </div>
+          </div>
+          <div class="skill-groups">
+            <div class="skill-group">
+              <h3 class="skill-group-label">Security Operations Center (SOC)</h3>
+              <div class="skill-tags">
+                <span class="skill-tag highlighted">Wazuh SIEM</span>
+                <span class="skill-tag highlighted">Sysmon Endpoint Telemetry</span>
+                <span class="skill-tag">Threat Hunting</span>
+                <span class="skill-tag">Threat Detection & Rules</span>
+                <span class="skill-tag">Incident Response</span>
+                <span class="skill-tag">Log Analysis & Alerting</span>
+                <span class="skill-tag">Security Monitoring</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">Network & Gateway Security</h3>
+              <div class="skill-tags">
+                <span class="skill-tag highlighted">Fortinet Ecosystem</span>
+                <span class="skill-tag">Firewalls & Security Policies</span>
+                <span class="skill-tag">Virtual Private Networks (VPN)</span>
+                <span class="skill-tag">Intrusion Detection & Prevention (IDS/IPS)</span>
+                <span class="skill-tag">Network Traffic Analysis</span>
+                <span class="skill-tag">SSL Inspection</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">Ransomware & Forensics</h3>
+              <div class="skill-tags">
+                <span class="skill-tag highlighted">CRPO Certified Ransomware Protection</span>
+                <span class="skill-tag">CSI Linux Investigation</span>
+                <span class="skill-tag">Memory Forensics</span>
+                <span class="skill-tag">Digital Forensics & Incident Response</span>
+                <span class="skill-tag">Data Recovery</span>
+                <span class="skill-tag">Anonymity & Privacy</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">Threat & Exposure Management</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">Cyber Threat Intelligence (CTI)</span>
+                <span class="skill-tag">Vulnerability Management</span>
+                <span class="skill-tag">Phishing Detection</span>
+                <span class="skill-tag">Malware Analysis</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Offensive Security & Penetration Testing (Red Team) -->
+        <div class="skill-category-card" data-cat="red-team">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">⚔️</div>
+            <div>
+              <h2 class="skill-cat-title">Offensive Security & Penetration Testing</h2>
+              <span class="skill-cat-badge">Red Team & Web App Sec</span>
+            </div>
+          </div>
+          <div class="skill-groups">
+            <div class="skill-group">
+              <h3 class="skill-group-label">Web Application Pentesting</h3>
+              <div class="skill-tags">
+                <span class="skill-tag highlighted">OWASP Top 10</span>
+                <span class="skill-tag highlighted">Burp Suite Professional</span>
+                <span class="skill-tag">SQL Injection & XSS</span>
+                <span class="skill-tag">Secure Session Management</span>
+                <span class="skill-tag">RBAC & MFA Bypass Auditing</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">Ethical Hacking & Exploitation</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">Penetration Testing</span>
+                <span class="skill-tag">Red Team Playbooks</span>
+                <span class="skill-tag">Password Cracking & Hashcat</span>
+                <span class="skill-tag">Web & Cloud Attacks</span>
+                <span class="skill-tag">Social Engineering Assessment</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">Security Assessment</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">Code Review Techniques</span>
+                <span class="skill-tag">Application Security Testing (SAST/DAST)</span>
+                <span class="skill-tag">Mobile Application Security</span>
+                <span class="skill-tag">Network Vulnerability Auditing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Governance, Risk, Compliance (GRC) & Frameworks -->
+        <div class="skill-category-card" data-cat="grc">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">📜</div>
+            <div>
+              <h2 class="skill-cat-title">Governance, Risk, Compliance (GRC) & Frameworks</h2>
+              <span class="skill-cat-badge">NIST CSF & ISO 27001</span>
+            </div>
+          </div>
+          <div class="skill-groups">
+            <div class="skill-group">
+              <h3 class="skill-group-label">Security Frameworks</h3>
+              <div class="skill-tags">
+                <span class="skill-tag highlighted">NIST Cybersecurity Framework (NIST CSF)</span>
+                <span class="skill-tag highlighted">ISO 27001 Information Security</span>
+                <span class="skill-tag">MITRE ATT&CK Matrix Alignment</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">Risk & Audit</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">Cyber Risk Assessment</span>
+                <span class="skill-tag">Regulatory Compliance</span>
+                <span class="skill-tag">System Auditing</span>
+                <span class="skill-tag">Executive Risk Reporting</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">Data Protection</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">Data Privacy Governance</span>
+                <span class="skill-tag">Data Confidentiality</span>
+                <span class="skill-tag">Exposure Management</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Systems, Networking & IT Support -->
+        <div class="skill-category-card" data-cat="systems">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🐧</div>
+            <div>
+              <h2 class="skill-cat-title">Systems, Networking & IT Support</h2>
+              <span class="skill-cat-badge">Linux & Enterprise Networking</span>
+            </div>
+          </div>
+          <div class="skill-groups">
+            <div class="skill-group">
+              <h3 class="skill-group-label">Linux Administration</h3>
+              <div class="skill-tags">
+                <span class="skill-tag highlighted">Red Hat Enterprise Linux (RHEL)</span>
+                <span class="skill-tag highlighted">CSI Linux Administration</span>
+                <span class="skill-tag">Linux Mint</span>
+                <span class="skill-tag">Debian & Ubuntu Server Administration</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">Networking Foundations</h3>
+              <div class="skill-tags">
+                <span class="skill-tag highlighted">Cisco Networking</span>
+                <span class="skill-tag">Computer Networking Fundamentals</span>
+                <span class="skill-tag">Network Administration</span>
+                <span class="skill-tag">Cryptography & PKI</span>
+                <span class="skill-tag">Network Security Protocol Stack</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-label">IT Operations</h3>
+              <div class="skill-tags">
+                <span class="skill-tag">Help Desk Operations</span>
+                <span class="skill-tag">Hardware Support</span>
+                <span class="skill-tag">Computer Hardware Diagnostics</span>
+                <span class="skill-tag">System Troubleshooting</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <h3 class="footer-title">Ready to leverage these skills for your organization?</h3>
+          <a href="https://github.com/KingLinux24" target="_blank" class="footer-email">github.com/KingLinux24</a>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; 2026 Israel David. All rights reserved.</span>
+          <div class="footer-socials">
+            <a href="https://github.com/KingLinux24" target="_blank">GitHub</a>
+            <a href="https://www.youtube.com/@i_amHacker45" target="_blank">YouTube</a>
+            <a href="https://linkedin.com/in/israel-mbiyavanga-david-b037a1255" target="_blank">LinkedIn</a>
+            <a href="https://instagram.com/i_amhacker45" target="_blank">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <script>
+    // Filtering and Search Script
+    const searchInput = document.getElementById('skills-search-input');
+    const tabs = document.querySelectorAll('.skills-tab');
+    const cards = document.querySelectorAll('.skill-category-card');
+
+    let currentCategory = 'all';
+
+    function filterSkills() {
+      const searchTerm = searchInput.value.toLowerCase().trim();
+
+      cards.forEach(card => {
+        const cat = card.getAttribute('data-cat');
+        const matchesCategory = (currentCategory === 'all' || cat === currentCategory);
+        const cardText = card.textContent.toLowerCase();
+        const matchesSearch = !searchTerm || cardText.includes(searchTerm);
+
+        if (matchesCategory && matchesSearch) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        currentCategory = tab.getAttribute('data-category');
+        filterSkills();
+      });
+    });
+
+    searchInput.addEventListener('input', filterSkills);
+  </script>
+</body>
+</html>
