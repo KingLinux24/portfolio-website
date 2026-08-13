@@ -1,4 +1,4 @@
-# Israel David — AI Security & SOC Engineering Portfolio
+# Israel David — AI Security & AI Backend & SOC Engineering Portfolio
 
 [![Vite](https://img.shields.io/badge/Vite-5.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
