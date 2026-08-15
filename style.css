@@ -1061,33 +1061,6 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   font-weight: 500;
 }
 
-/* Responsive Adjustments */
-@media (max-width: 1024px) {
-  .hero-heading { font-size: 4rem; }
-  .hero-top-grid, .about-header-grid, .stats-header { grid-template-columns: 1fr; gap: 32px; }
-  .services-grid { grid-template-columns: repeat(2, 1fr); }
-  .brands-card { flex-direction: column; gap: 24px; text-align: center; }
-  .brands-logos { flex-wrap: wrap; justify-content: center; }
-  .projects-grid { grid-template-columns: 1fr; }
-  .footer-top { flex-direction: column; align-items: flex-start; gap: 20px; }
-  
-  .stats-main-heading { font-size: 2.6rem; }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 24px; }
-  .stat-number { font-size: 3.5rem; }
-
-  .person-display-name { font-size: 3.2rem; letter-spacing: 2px; }
-  .person-display-name.top-line { margin-bottom: 20px; }
-  .person-display-name.bottom-line { margin-top: 20px; }
-  .person-portrait-box { width: 280px; height: 380px; }
-
-  .grow-header { flex-direction: column; gap: 24px; }
-  .grow-heading { font-size: 3.2rem; }
-  .heading-grow { font-size: 3.6rem; }
-  .heading-scale { font-size: 1.8rem; display: block; margin-left: 0; }
-  .form-grid { grid-template-columns: 1fr; gap: 28px; }
-  .scale-form { padding: 0; }
-}
-
 /* Projects Dedicated Page Styles */
 body.projects-page {
   background: #0b0d14;
@@ -1396,16 +1369,6 @@ body.projects-page {
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* Projects Mobile Media Queries */
-@media (max-width: 1024px) {
-  .projects-hero-title { font-size: 3.2rem; }
-  .projects-stats-bar { grid-template-columns: repeat(2, 1fr); gap: 24px; }
-  .projects-masonry-grid { grid-template-columns: 1fr; }
-  .archive-row { grid-template-columns: 1fr; gap: 8px; text-align: left; }
-  .arc-link { justify-self: start; margin-top: 8px; }
-  .testimonials-grid { grid-template-columns: 1fr; }
-}
-
 /* ==========================================
    SKILLS PAGE STYLING
    ========================================== */
@@ -1640,11 +1603,6 @@ body.projects-page {
   color: #ffffff;
 }
 
-@media (max-width: 1024px) {
-  .skills-hero-title { font-size: 3rem; }
-  .skills-categories-grid { grid-template-columns: 1fr; }
-}
-
 /* Dedicated About Page Styling */
 .about-page {
   background-color: var(--bg-color);
@@ -1820,16 +1778,4 @@ body.projects-page {
   color: rgba(255, 255, 255, 0.7);
 }
 
-@media (max-width: 900px) {
-  .what-i-build-grid { grid-template-columns: 1fr; }
-  .build-card { flex-direction: column; }
-  .about-page-title { font-size: 2.8rem; }
-  .bio-main-card { padding: 28px; }
-  .mission-card { padding: 32px 24px; }
-}
-
-@media (max-width: 1024px) {
-  .skills-hero-title { font-size: 3rem; }
-  .skills-categories-grid { grid-template-columns: 1fr; }
-}
 
