@@ -1778,4 +1778,318 @@ body.projects-page {
   color: rgba(255, 255, 255, 0.7);
 }
 
+/* ==========================================
+   MOBILE RESPONSIVE STYLES
+   ========================================== */
+@media (max-width: 768px) {
+  /* Navigation */
+  .navbar-header {
+    padding: 16px 20px;
+  }
 
+  .nav-container {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .logo {
+    font-size: 1.1rem;
+  }
+
+  .nav-links {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-item {
+    font-size: 0.85rem;
+  }
+
+  .btn-primary {
+    font-size: 0.8rem;
+    padding: 6px 8px 6px 16px;
+  }
+
+  .btn-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  /* Content Wrapper */
+  .content-wrapper {
+    padding: 0 20px;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+
+  .hero-top-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+
+  .hero-tagline {
+    font-size: 1rem;
+  }
+
+  .hero-heading {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    letter-spacing: -1px;
+  }
+
+  .quote-title {
+    font-size: 1.2rem;
+  }
+
+  .quote-text {
+    font-size: 0.85rem;
+  }
+
+  /* Services Grid */
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .service-name {
+    font-size: 0.9rem;
+  }
+
+  /* Brands Section */
+  .brands-card {
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0;
+  }
+
+  .brands-logos {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .brand-item {
+    font-size: 0.9rem;
+  }
+
+  /* About Section */
+  .about-header-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .about-heading {
+    font-size: 2.2rem;
+    letter-spacing: -1px;
+  }
+
+  .about-description {
+    font-size: 1rem;
+  }
+
+  /* Projects Grid */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Stats Section */
+  .stats-header {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .stats-main-heading {
+    font-size: 2.2rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .stat-number {
+    font-size: 3rem;
+  }
+
+  /* Person Showcase */
+  .person-display-name {
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+
+  .person-portrait-box {
+    width: 280px;
+    height: 380px;
+  }
+
+  /* Grow Section */
+  .grow-header {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .grow-heading {
+    font-size: 2.5rem;
+  }
+
+  .heading-grow {
+    font-size: 2.8rem;
+  }
+
+  .heading-scale {
+    font-size: 1.5rem;
+  }
+
+  /* Form */
+  .form-grid {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 32px;
+  }
+
+  /* Footer */
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .footer-title {
+    font-size: 1.5rem;
+  }
+
+  .footer-email {
+    font-size: 1.1rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+
+  .footer-socials {
+    justify-content: center;
+  }
+
+  /* Projects Page */
+  .projects-wrapper {
+    padding: 100px 20px 40px;
+  }
+
+  .projects-hero-title {
+    font-size: 2.5rem;
+  }
+
+  .projects-stats-bar {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 24px;
+  }
+
+  .p-stat-num {
+    font-size: 2.2rem;
+  }
+
+  .projects-masonry-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .archive-row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 20px;
+  }
+
+  .arc-link {
+    justify-self: start;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Skills Page */
+  .skills-wrapper {
+    padding: 100px 20px 60px;
+  }
+
+  .skills-hero-title {
+    font-size: 2.2rem;
+  }
+
+  .skills-filter-row {
+    gap: 8px;
+  }
+
+  .skills-tab {
+    font-size: 0.75rem;
+    padding: 8px 14px;
+  }
+
+  .skills-categories-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-category-card {
+    padding: 24px;
+  }
+
+  /* About Page */
+  .about-page-wrapper {
+    padding: 100px 20px 60px;
+  }
+
+  .about-page-title {
+    font-size: 2.2rem;
+  }
+
+  .bio-main-card {
+    padding: 28px;
+  }
+
+  .bio-lead-text {
+    font-size: 1.1rem;
+  }
+
+  .what-i-build-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .build-card {
+    padding: 24px;
+    flex-direction: column;
+  }
+
+  .mission-card {
+    padding: 32px 24px;
+  }
+
+  .mission-text {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-heading {
+    font-size: 2rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-stats-bar {
+    grid-template-columns: 1fr;
+  }
+}
