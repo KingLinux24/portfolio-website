@@ -1788,32 +1788,38 @@ body.projects-page {
   }
 
   .nav-container {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 12px;
+    align-items: center;
   }
 
   .logo {
     font-size: 1.1rem;
+    order: 1;
   }
 
   .nav-links {
-    gap: 16px;
+    gap: 12px;
     flex-wrap: wrap;
     justify-content: center;
+    order: 2;
+    flex: 1;
   }
 
   .nav-item {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
 
   .btn-primary {
-    font-size: 0.8rem;
-    padding: 6px 8px 6px 16px;
+    font-size: 0.75rem;
+    padding: 6px 8px 6px 14px;
+    order: 3;
   }
 
   .btn-icon {
-    width: 28px;
-    height: 28px;
+    width: 26px;
+    height: 26px;
   }
 
   /* Content Wrapper */
